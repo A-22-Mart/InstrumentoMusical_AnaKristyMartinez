@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+  <!--<script src="04-dom.js" defer></script>-->
+  <title>Mi piano Kristy</title>
+</head>
+
+<body>
+  <div>
+    <section>
+      <h1> ♫  P I A N O  ♫ </h1>
+      <h2>Ana Kristy Martínez López</h2>
+    </section>
+      <h3 class="text">
+        Hola! Mi nombre es <span id="name"></span>, tengo
+        <span id="age"></span> años y <span id="likesMusic"></span>. Este es mi primer proyecto con Javascript
+      </h3>
+  </div>
+
+  <div class="piano">
+    <div data-note="C" class="key white"></div>
+    <div data-note="Db" class="key black"></div>
+    <div data-note="D" class="key white"></div>
+    <div data-note="Eb" class="key black"></div>
+    <div data-note="E" class="key white"></div>
+    <div data-note="F" class="key white"></div>
+    <div data-note="Gb" class="key black"></div>
+    <div data-note="G" class="key white"></div>
+    <div data-note="Ab" class="key black"></div>
+    <div data-note="A" class="key white"></div>
+    <div data-note="Bb" class="key black"></div>
+    <div data-note="B" class="key white"></div>
+  </div>
+
+  <div id="personalizar"> 
+    <section>
+    <h3>Elige el color de piano que más te guste</h3>
+    </section>
+    <button onclick="pianoTema1()">Tema 1</button>
+    <button onclick="pianoTema2()">Tema 2</button>
+    <button onclick="pianoTema3()">Tema 3</button>
+    <button onclick="pianoTema4()">Tema 4</button>
+    <button onclick="pianoTema5()">Tema 5</button>
+  </div>
+
+  <audio id="C" src="notes/C.mp3"></audio>
+  <audio id="Db" src="notes/Db.mp3"></audio>
+  <audio id="D" src="notes/D.mp3"></audio>
+  <audio id="Eb" src="notes/Eb.mp3"></audio>
+  <audio id="E" src="notes/E.mp3"></audio>
+  <audio id="F" src="notes/F.mp3"></audio>
+  <audio id="Gb" src="notes/Gb.mp3"></audio>
+  <audio id="G" src="notes/G.mp3"></audio>
+  <audio id="Ab" src="notes/Ab.mp3"></audio>
+  <audio id="A" src="notes/A.mp3"></audio>
+  <audio id="Bb" src="notes/Bb.mp3"></audio>
+  <audio id="B" src="notes/B.mp3"></audio>
+</body>
+
+</html>
